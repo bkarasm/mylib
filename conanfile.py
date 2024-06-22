@@ -8,6 +8,7 @@ required_conan_version = ">=1.53.0"
 
 class MyLibConan(ConanFile):
     name = "mylib"
+    version = "1.0.0"
     url = "https://github.com/bkarasm/mylib"
     settings = "os", "compiler", "arch", "build_type"
     options = {
